@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    width: 1085px;
+
+}
+
+.section1__zagolovok {
+    color: #333;
+    font-size: 61px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 123px;
+    margin-bottom: 49px;
+}
+
+.section1__zagolovok:before {
+    content: '';
+    display: block;
+    background: url("../images/middle/section1__line.png") no-repeat;
+    width: 455px;
+    line-height: 12px;
+}
+
+.line {
+    display: block;
+    background: url("../images/middle/section1__line.png") no-repeat;
+    width: 455px;
+    line-height: 12px;
+}
+
+.section1__box1 {
+    overflow: hidden;
+    background: url("../images/middle/fon.jpg") no-repeat;
+}
+
+.section__box1__text {
+    margin-right: 370px;
+}
+
+.section1__box1 img {
+    float: right;
+    margin-top: 22px;
+    margin-bottom: 20px;
+ }
+
+.zag2 {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box1__propertyBig {
+    margin-top: 109px;
+    margin-bottom: 35px;
+}
+
+.smoltext {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+}
+
+.box1__propertySmole {
+    text-align: right;
+    font-size: 18px;
+}
+
+/* section1__box2 begin*/
+.section1__box2 {
+    overflow: hidden;
+    background-color: #fff;
+}
+.section1__box2 img {
+    float: left;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.section1__box2__text {
+    margin-left: 310px;
+}
+.box2__propertyBig {
+    margin-top: 70px;
+    margin-bottom: 27px;
+}
+
+.box2__propertySmole {
+    font-size: 20px;
+    text-align: left;
+}
+/*section1__box2 end*/
+
+/*section2 begin*/
+.section2 {
+    /*має бути фон*/
+}
+
+.section2__box {
+    width: 1000px;
+    margin: auto;
+}
+/*section2 end*/
